@@ -12,5 +12,5 @@ You can install powershell in linux or mac by following the instructions over at
 
 List so far:
 
-***SecureIOTASeedGenerator.ps1*** - generates as many seeds as you want, using the secure, cryptografic functions available in .net
+***SecureIOTASeedGenerator.ps1*** - generates as many seeds as you want, using the secure, cryptografic functions in .net
 
