@@ -1,11 +1,10 @@
 Disclaimer
 ==========
 
-<h3>These scripts are my own and have not been check by any secutity expert or anyone related to the IOTA Foundation, the IOTA core team or anybody else directly belonging with these entities or IOTA itself
-The aforementioned entities do not condone nor reject this content, as they have no relation whatsoever with it</h3>
+<h3>These scripts are my own and have not been check by any secutity expert or anyone related to the IOTA Foundation, the IOTA core team or anybody else directly belonging with these entities or IOTA itself.</h3>
+<h3>These entities do not condone nor reject this content, as they have no relation whatsoever with it</h3>
 
-<h5>I'm just a supporter of IOTA and an active community member, like so many others, that decided to share some code that I made for private use, and the only person responsible for what's made available in this repository.
-Under no cirscunstances should anyone contact the IOTA Foundation, IOTA core team or anybody else but me on any issues you find or whant to discuss - you may do that by submetting an issue on this repository at any time you want.</h5>
+<h3>Under no cirscunstances should anyone contact the IOTA Foundation, IOTA core team or anybody else but me on any issues you find or whant to discuss - you may do that by submetting an issue on this repository at any time you want.</h3>
 
 
 
