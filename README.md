@@ -2,8 +2,8 @@ Disclaimer
 ==========
 
 <h3>These scripts are my own and have not been check by any secutity expert or anyone related to the IOTA Foundation, the IOTA core team or anybody else directly belonging with these entities or IOTA itself.</h3>
-<h3>These entities do not condone nor reject this content, as they have no relation whatsoever with it or me, other than the fact that I'm a coommunity member that supports IOTA.</h3>
-<h3>Under no cirscunstances should anyone contact the IOTA Foundation, IOTA core team or anybody else but me on any issues you find or whant to discuss - you may do that by submetting an issue on this repository at any time you want.</h3>
+<h3>These entities do not condone nor reject this content, as they have no relation whatsoever with it or me, other than the fact that I'm a community member that supports IOTA.</h3>
+<h3>Under no cirscunstances should anyone contact the IOTA Foundation, IOTA core team or anybody else but me on any issues you find or want to discuss - you may do that by submetting an issue on this repository at any time you so desire.</h3>
 
 
 
