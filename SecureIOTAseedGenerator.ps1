@@ -5,9 +5,11 @@
 
 # usage example : SecureIOTASeedGenerator 10 , will generate 10 seeds in a row
 
-# Windows-only compatible, Powershell 5 or higher, depends on .Net 4.5.2 or higher , may work with lower versions but RNG may not be as safe, was not tested
+# Windows-only compatible, Powershell 5 or higher, depends on .Net 4.5.2 or higher
+# may work with lower versions but RNG may not be as safe, was not tested
 
-# validated for entropy and randoms results can be trusted as described in http://research.ijcaonline.org/volume113/number8/pxc3901710.pdf
+# validated for entropy and randomness
+# results can be trusted as described in http://research.ijcaonline.org/volume113/number8/pxc3901710.pdf
 
 
 param([int]$NumberSeeds = 1)
@@ -23,7 +25,8 @@ For ($repeat=1; $repeat -le $NumberSeeds; $repeat++)    # loop for number of see
     $rng.GetBytes($salt)
     For ($i=0; $i -lt ($NumberOfTrytes);$i++)   # loop to generate each seed tryte from RNG sample
     {
-        $seed += $PossibleValues[$Salt[$i] % $PossibleValues.Length]    # since the RNG function supplies arrays of bytes, we must flatten the range to the 27-tryte range used for IOTA
+        $seed += $PossibleValues[$Salt[$i] % $PossibleValues.Length]
+        # since the RNG function supplies arrays of bytes, we must flatten the range to the 27-tryte range used for IOTA
     }
 Write-Host $seed
 }
