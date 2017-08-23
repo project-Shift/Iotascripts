@@ -15,15 +15,15 @@ param([int]$NumberSeeds = 1)
 $PossibleValues = "9ABCDEFGHIJKLMNOPQRSTUVWXYZ" # IOTA's default tryte space for balanced trinary-encoded representation 
 $NumberOfTrytes = 81    # Current number of used and accepted trytes in a seed
 
-For ($repeat=1; $repeat -le $NumberSeeds; $repeat++)
+For ($repeat=1; $repeat -le $NumberSeeds; $repeat++)    # loop for number of seeds requestes
 {
     $seed = ""
     $salt = New-Object byte[]($NumberOfTrytes)
-    $rng = [Security.Cryptography.RNGCryptoServiceProvider]::Create()
+    $rng = [Security.Cryptography.RNGCryptoServiceProvider]::Create()   # the secure RNG available with .Net
     $rng.GetBytes($salt)
-    For ($i=0; $i -lt ($NumberOfTrytes);$i++)
+    For ($i=0; $i -lt ($NumberOfTrytes);$i++)   # loop to generate each seed tryte from RNG sample
     {
         $seed += $PossibleValues[$Salt[$i] % $PossibleValues.Length]    # since the RNG function supplies arrays of bytes, we must flatten the range to the 27-tryte range used for IOTA
     }
-$seed
+Write-Host $seed
 }
