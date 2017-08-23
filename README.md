@@ -1,4 +1,4 @@
-Disclaimer
+DISCLAIMER
 ==========
 
 <h3>These scripts are my own and have not been checked by any security expert or anyone related to the IOTA Foundation, the IOTA core team or anybody else directly belonging to these entities or IOTA itself.</h3>
